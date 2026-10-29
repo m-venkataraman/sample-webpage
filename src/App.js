@@ -1,16 +1,25 @@
 import React from 'react';
-import Header from './components/Header';
-import ProductList from './components/ProductList';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Experience from './components/Experience';
+import ErpWorks from './components/ErpWorks';
+import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import Footer from './components/Footer';
+import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <ProductList />
+    <div className="app-layout">
+      <Navbar />
+      <main>
+        <Hero />
+        <Experience />
+        <ErpWorks />
+        <Projects />
+        <Certifications />
+      </main>
       <Footer />
     </div>
   );
 }
-
-export default App;

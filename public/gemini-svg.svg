@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="vmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Background Container -->
+  <rect width="100" height="100" rx="22" fill="#0b0f19" />
+  <rect x="2" y="2" width="96" height="96" rx="20" fill="none" stroke="url(#vmGrad)" stroke-width="3" stroke-opacity="0.8" />
+  
+  <!-- Monogram VM -->
+  <text x="50%" y="55%" dominant-baseline="central" text-anchor="middle" font-size="44" font-weight="900" font-family="system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" fill="url(#vmGrad)" letter-spacing="-2">
+    VM
+  </text>
+</svg>
