@@ -7,7 +7,6 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-avatar-wrap">
           <img src="/profile.jpg" alt="Venkataramanan M" className="hero-avatar" />
-          <span className="status-badge">Available for Enterprise Roles</span>
         </div>
         <h1>VENKATARAMANAN M</h1>
         <h2 className="hero-subtitle">Software Developer — Enterprise Solutions & Integrations</h2>
