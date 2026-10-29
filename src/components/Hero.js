@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, MessageCircle, Mail, MapPin, ExternalLink } from 'lucide-react';
+import { Download, MessageCircle, Mail, MapPin } from 'lucide-react';
 
 export default function Hero() {
   return (

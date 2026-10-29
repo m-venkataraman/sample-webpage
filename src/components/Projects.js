@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, ExternalLink } from 'lucide-react';
+//import { Code, ExternalLink } from 'lucide-react';
 
 export default function Projects() {
   const projectList = [
